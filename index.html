@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh's DevOps Portfolio</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+        .section {
+            height: 100vh;
+            color: rgb(5, 5, 5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #about {
+            background-image: url('https://i.pinimg.com/564x/c0/f1/3f/c0f13f55e176bcdbd97a776a57cc9541.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        #projects {
+            background-image: url('https://i.pinimg.com/564x/4c/f5/97/4cf5979a02c29ccf50eb97e65ca73893.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        #contact {
+            background-image: url('https://i.pinimg.com/564x/dc/ca/26/dcca26b3a0a25ccc20c7e617b358cd63.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        h1, h2 {
+            margin: 0 0 20px;
+        }
+
+        p {
+            max-width: 800px;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 1.5em;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+
+        ul li:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .contact-info {
+            font-size: 1.5em;
+        }
+
+        .footer {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="about" class="section">
+        <h1>About Me</h1>
+        <p>Hi, I'm Dinesh, a passionate DevOps Engineer with a deep interest in automating infrastructure and building robust CI/CD pipelines. I have experience working with various tools and technologies to ensure seamless deployment and monitoring of applications. Welcome to my portfolio!</p>
+    </div>
+
+    <div id="projects" class="section">
+        <h1>Projects</h1>
+        <ul>
+            <li>CI/CD Pipeline with Jenkins and Docker</li>
+            <li>Automated Infrastructure with Terraform and Ansible</li>
+            <li>Monitoring and Alerting with Prometheus and Grafana</li>
+            <li>Kubernetes Cluster Setup with Kops</li>
+            <li>End-to-End DevOps Project</li>
+            <li>Container Orchestration with Kubernetes and Helm</li>
+        </ul>
+    </div>
+
+    <div id="contact" class="section">
+        <h1>Contact</h1>
+        <p class="contact-info">
+            Email: dinesh@example.com <br>
+            Phone: +1234567890 <br>
+            LinkedIn: <a href="https://linkedin.com/in/dinesh" style="color: white;">linkedin.com/in/dinesh</a>
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Dinesh's Portfolio | <a href="#" style="color: white;">Privacy Policy</a> | <a href="#" style="color: white;">Terms of Service</a></p>
+    </div>
+
+    <script>
+        // JavaScript for additional interactivity can be added here
+    </script>
+</body>
+</html>
